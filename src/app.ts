@@ -19,7 +19,7 @@ button.addEventListener(
   false
 );
 
-todoList.addEventListener('click', function(event) {
+todoList.addEventListener('click', function (event) {
   const target = event.target as HTMLButtonElement;
   if (target.nodeName.toLowerCase() === 'button') {
     console.log(target);
